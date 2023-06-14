@@ -10,6 +10,7 @@ Requirement:
 
 - golang 1.18+
 - docker
+- VSCode (IDE i used for golang)
 
 To install dependency tools:
 
@@ -28,3 +29,14 @@ Check if it's running:
 ```bash
 curl localhost:8080/ping
 ```
+
+## Tasks
+Most of the server codes are implemented by the demo template. There are only a few tasks left:
+- Setup and configure a datastore (Redis) 
+  1) Edit docker-compose.yml to add a Redis server
+  2) Setup Redis client in the rpc-server
+- Implement handlers in rpc-server
+  areYouLucky() is a placeholder function. We need to replace it with our business logic here, i.e writing and reading messages from Redis
+  1) Send
+  2) Pull
+
