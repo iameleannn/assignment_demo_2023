@@ -40,3 +40,13 @@ Most of the server codes are implemented by the demo template. There are only a 
   1) Send
   2) Pull
 
+## Updated the following files
+1) go.mod
+2) go.sum
+3) handler_test.go
+4) main.go
+5) models.go
+6) redis.go
+7) docker-compose.yml
+
+## Used postman for the API
